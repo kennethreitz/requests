@@ -762,9 +762,9 @@ documentation](https://requests.readthedocs.io/en/latest/community/release-proce
 **Features and Improvements**
 
 -   Add sha256 fingerprint support.
-    ([shazow/urllib3\#540](https://github.com/shazow/urllib3/pull/540))
+    ([urllib3/urllib3\#540](https://github.com/urllib3/urllib3/pull/540))
 -   Improve the performance of headers.
-    ([shazow/urllib3\#544](https://github.com/shazow/urllib3/pull/544))
+    ([urllib3/urllib3\#544](https://github.com/urllib3/urllib3/pull/544))
 
 **Bugfixes**
 
@@ -780,19 +780,19 @@ documentation](https://requests.readthedocs.io/en/latest/community/release-proce
     authentication challenges provides both auth and auth-int
     qop-values. (\#2408)
 -   Fix a socket leak.
-    ([shazow/urllib3\#549](https://github.com/shazow/urllib3/pull/549))
+    ([urllib3/urllib3\#549](https://github.com/urllib3/urllib3/pull/549))
 -   Fix multiple `Set-Cookie` headers properly.
-    ([shazow/urllib3\#534](https://github.com/shazow/urllib3/pull/534))
+    ([urllib3/urllib3\#534](https://github.com/urllib3/urllib3/pull/534))
 -   Disable the built-in hostname verification.
-    ([shazow/urllib3\#526](https://github.com/shazow/urllib3/pull/526))
+    ([urllib3/urllib3\#526](https://github.com/urllib3/urllib3/pull/526))
 -   Fix the behaviour of decoding an exhausted stream.
-    ([shazow/urllib3\#535](https://github.com/shazow/urllib3/pull/535))
+    ([urllib3/urllib3\#535](https://github.com/urllib3/urllib3/pull/535))
 
 **Security**
 
 -   Pulled in an updated `cacert.pem`.
 -   Drop RC4 from the default cipher list.
-    ([shazow/urllib3\#551](https://github.com/shazow/urllib3/pull/551))
+    ([urllib3/urllib3\#551](https://github.com/urllib3/urllib3/pull/551))
 
 2.5.1 (2014-12-23)
 ------------------
@@ -1253,7 +1253,7 @@ This is not a backwards compatible change.
 -------------------
 
 -   Removal of Requests.async in favor of
-    [grequests](https://github.com/kennethreitz/grequests)
+    [grequests](https://github.com/spyoungtech/grequests)
 -   Allow disabling of cookie persistence.
 -   New implementation of safe\_mode
 -   cookies.get now supports default argument
