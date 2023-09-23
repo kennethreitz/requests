@@ -89,8 +89,7 @@ except (AssertionError, ValueError):
                   RequestsDependencyWarning)
 
 # Attempt to enable urllib3's fallback for SNI support
-# if the standard library doesn't support SNI or the
-# 'ssl' library isn't available.
+# if the standard library doesn't support SNI or the 'ssl' library isn't available.
 try:
     try:
         import ssl
